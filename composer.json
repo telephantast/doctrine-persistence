@@ -1,0 +1,26 @@
+{
+    "name": "telephantast/doctrine-persistence",
+    "description": "Telephantast Doctrine Persistence",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov.valentin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "doctrine/dbal": "^3 || ^4",
+        "telephantast/message-bus": "^0.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Telephantast\\DoctrinePersistence\\": ""
+        }
+    },
+    "config": {
+        "lock": false,
+        "vendor-dir": "../../var/DoctrinePersistence/vendor"
+    }
+}
